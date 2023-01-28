@@ -2,7 +2,9 @@
 ## Table of contents
 
 - [General info](#general-info)
+- [Live Address](#live-address)
 - [Setup](#setup)
+- [Author](#author)
 
 ## General info
 
@@ -33,6 +35,6 @@ $ npm install
 $ npm run dev (development) || npm run start  (production)
 ```
 
-### Author
+## Author
 
 - [Abdulhakeem Muhammed](https://abdulhakeem-muhammed.netlify.app/)
