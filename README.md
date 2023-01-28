@@ -2,7 +2,6 @@
 ## Table of contents
 
 - [General info](#general-info)
-- [Technologies](#technologies)
 - [Setup](#setup)
 
 ## General info
@@ -11,16 +10,6 @@ This project is a Full Stack Portfolio web app, built with the JavaScript's MERN
 
 ## Live Address
 https://ennas-de.netlify.app/
-
-## Technologies
-
-Project is created with:
-
-- Lorem version: 12.3
-- Ipsum version: 2.33
-- Ament library version: 999
-
-### Libraries Used
 
 ## Setup
 
@@ -43,12 +32,6 @@ $ cd server
 $ npm install
 $ npm run dev (development) || npm run start  (production)
 ```
-
-## How It Works
-
-## Usage
-
-### Issued Used
 
 ### Author
 
