@@ -13,15 +13,13 @@ require("dotenv").config();
 const bodyParser = require("body-parser");
 // const seedDB = require("./seed");
 
-
 app.use(cors());
 app.use(bodyParser.json());
 // seedDB();
 
-
-app.get('/', (req,res) => {
+app.get("/", (req, res) => {
   res.send("Hello Ennas.");
-})
+});
 app.use("/educations", educationRoutes);
 app.use("/experiences", experienceRoutes);
 app.use("/languages", languageRoutes);
@@ -32,16 +30,9 @@ app.use("/messages", messageRoutes);
 
 app.use("/uploads", express.static("uploads"));
 
-
-
 mongoose
-  .connect(process.env.DATA_BASE_CONNECTION, {
-    useCreateIndex: true,
-    useUnifiedTopology: true,
-    useNewUrlParser: true,
-  })
-  .then(app.listen(process.env.PORT || 3001, process.env.IP), () => console.log("connected to db"))
+  .connect(process.env.DATA_BASE_CONNECTION)
+  .then(app.listen(process.env.PORT || 3001, process.env.IP), () =>
+    console.log("connected to db", process.env.DATA_BASE_CONNECTION)
+  )
   .catch((err) => console.error(err));
-
-  
-

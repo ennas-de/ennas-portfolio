@@ -32,7 +32,7 @@ const signup = async (req, res, next) => {
       });
     } else {
       const user = new User({
-        _id: new mongoose.Types.ObjectId(),
+        _id: new mongoose.Schema.Types.ObjectId(),
         name: req.body.name,
         email: req.body.email,
         password: hash,
