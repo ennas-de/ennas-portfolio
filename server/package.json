@@ -1,15 +1,16 @@
 {
-  "name": "ennas-de-backend",
+  "name": "ennas-portfolio-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "My Full Stack Portfolio Backend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "build": "npm i"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Mern", "Mern stack", "full stack", "node", "express", "MongoDB", "Jsonwebtoken"],
+  "author": "Muhammed Abdulhakeem",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
